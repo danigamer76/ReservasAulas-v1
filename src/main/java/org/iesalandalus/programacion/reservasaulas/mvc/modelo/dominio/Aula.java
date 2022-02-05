@@ -1,8 +1,9 @@
 package org.iesalandalus.programacion.reservasaulas.mvc.modelo.dominio;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Aula {
+public class Aula implements Serializable{
 	private String nombre;
 
 	public Aula(String nombre) {
