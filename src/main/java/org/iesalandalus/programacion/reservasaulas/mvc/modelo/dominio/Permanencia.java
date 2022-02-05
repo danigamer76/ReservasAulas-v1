@@ -1,10 +1,11 @@
 package org.iesalandalus.programacion.reservasaulas.mvc.modelo.dominio;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
-public class Permanencia {
+public class Permanencia implements Serializable{
 	private LocalDate dia;
 	private Tramo tramo;
 	private static final DateTimeFormatter FORMATO_DIA = DateTimeFormatter.ofPattern("dd/MM/yyyy");

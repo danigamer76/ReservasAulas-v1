@@ -16,9 +16,6 @@ public class MainApp {
 		System.out.println(salon1.toString());
 		System.out.println(salon2.toString());
 		System.out.println(salon3.toString());
-		Aulas aulas1 = new Aulas();
-		System.out.println(aulas1.representar());
-//		Aulas aulas2 = new Aulas(aulas1);
 		
 	}
 

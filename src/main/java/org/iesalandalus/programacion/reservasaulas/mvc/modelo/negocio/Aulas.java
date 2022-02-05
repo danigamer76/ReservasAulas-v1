@@ -87,9 +87,6 @@ public class Aulas {
 		while (listIterator.hasNext()) {
 			representaAulas.add(listIterator.next().toString());
 		}
-		for (Aula aula : coleccionAulas) {
-			representaAulas.add(aula.toString());
-		}
 		return representaAulas;
 	}
 

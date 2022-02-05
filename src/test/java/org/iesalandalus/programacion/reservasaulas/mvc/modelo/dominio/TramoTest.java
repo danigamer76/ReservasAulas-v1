@@ -3,10 +3,12 @@ package org.iesalandalus.programacion.reservasaulas.mvc.modelo.dominio;
 
 import static org.junit.Assert.*;
 
+import java.io.Serializable;
+
 import org.iesalandalus.programacion.reservasaulas.mvc.modelo.dominio.Tramo;
 import org.junit.Test;
 
-public class TramoTest {
+public class TramoTest implements Serializable{
 
 	@Test
 	public void identificadoresValidosTest() {
