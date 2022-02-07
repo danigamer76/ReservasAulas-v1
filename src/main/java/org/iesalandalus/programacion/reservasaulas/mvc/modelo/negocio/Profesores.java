@@ -1,8 +1,8 @@
 package org.iesalandalus.programacion.reservasaulas.mvc.modelo.negocio;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
 import javax.naming.OperationNotSupportedException;
 import org.iesalandalus.programacion.reservasaulas.mvc.modelo.dominio.Profesor;
@@ -29,7 +29,7 @@ public class Profesores {
 
 	private List<Profesor> copiaProfundaProfesores(List<Profesor> profesores) {
 		List<Profesor> copiaProfesor = new ArrayList<>();
-		ListIterator<Profesor> listIterator = profesores.listIterator();
+		Iterator<Profesor> listIterator = profesores.listIterator();
 		while (listIterator.hasNext()) {
 			copiaProfesor.add(new Profesor(listIterator.next()));
 		}
@@ -84,7 +84,7 @@ public class Profesores {
 
 	public List<String> representar() {
 		List<String> representaProfesores = new ArrayList<>();
-		ListIterator<Profesor> listIterator = coleccionProfesores.listIterator();
+		Iterator<Profesor> listIterator = coleccionProfesores.listIterator();
 		while (listIterator.hasNext()) {
 			representaProfesores.add(listIterator.next().toString());
 		}
