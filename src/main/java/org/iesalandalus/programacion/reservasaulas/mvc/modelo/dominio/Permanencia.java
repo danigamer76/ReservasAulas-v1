@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
+@SuppressWarnings("serial")
 public class Permanencia implements Serializable{
 	private LocalDate dia;
 	private Tramo tramo;

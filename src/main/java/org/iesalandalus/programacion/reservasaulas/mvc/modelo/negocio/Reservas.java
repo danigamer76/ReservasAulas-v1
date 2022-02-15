@@ -1,6 +1,5 @@
 package org.iesalandalus.programacion.reservasaulas.mvc.modelo.negocio;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -62,19 +61,17 @@ public class Reservas{
 
 	}
 	
-	private boolean esMesSiguienteOPosterior(Reserva reserva) {
-		return false;
-	}
-	
-	private List<Reserva> getReservasProfesorMes(Profesor profesor,LocalDate localdate){
-		return coleccionReservas;
-		
-	}
-	
-	private Reserva getReservasAulaDia(Aula aula, LocalDate localdate) {
-		return null;
-		
-	}
+//	private boolean esMesSiguienteOPosterior(Reserva reserva) {
+//		return false;
+//	}
+//	
+//	private List<Reserva> getReservasProfesorMes(Profesor profesor,LocalDate localdate){
+//		return coleccionReservas;
+//	}
+//	
+//	private Reserva getReservasAulaDia(Aula aula, LocalDate localdate) {
+//		return null;	
+//	}
 
 	public Reserva buscar(Reserva reserva) {
 		int indice = coleccionReservas.indexOf(reserva);

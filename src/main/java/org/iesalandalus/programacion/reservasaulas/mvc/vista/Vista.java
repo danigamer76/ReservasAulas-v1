@@ -13,8 +13,8 @@ import org.iesalandalus.programacion.reservasaulas.mvc.modelo.dominio.Reserva;
 public class Vista {
 
 	private static final String ERROR = "";
-	private static final String NOMBRE_VALIDO = "";
-	private static final String CORREO_VALIDO = "";
+//	private static final String NOMBRE_VALIDO = "";
+//	private static final String CORREO_VALIDO = "";
 
 	private Controlador controlador;
 
